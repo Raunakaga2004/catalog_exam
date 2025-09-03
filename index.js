@@ -112,7 +112,10 @@ function findCoefficient(data){
   });
 
   // Print unique constants
-  console.log([...constants]);
+  constants.forEach(element => {
+    console.log(element)
+  });
+  // console.log([...constants]);
 }
 
 findCoefficient(data1);
